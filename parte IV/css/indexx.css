@@ -1,0 +1,103 @@
+img.banner {
+    width: 100%;
+}
+
+section {
+    width: 940px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+section h2:first-letter {
+    font-size: 1.4em;
+}
+
+section h2::before {
+    content: "[ ";
+}
+
+section h2::after {
+    content: " ]";
+}
+
+section .utensilhos {
+    width: 150px;
+    float: left;
+    margin-right: 2em;
+}
+
+section .principal {
+    padding: 3em 0;
+    background-color: #fefefe;
+}
+
+section.principal p {
+    margin: 0 0 1em;
+}
+
+section.principal strong {
+    font-weight: bold;
+}
+
+section.principal em {
+    font-style: italic;
+}
+
+.fundo-gradiente {
+    background-color: #cccccc;
+    background: linear-gradient(#fefefe, #cccccc);
+}
+
+section.beneficios {
+    padding: 3em 0; 
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens::before {
+    content: "✭ ";
+}
+
+.imagem-beneficios {
+    height: 550px;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+    opacity: 1;
+}
+
+section.mapa {
+    padding: 3em;
+}
+
+section.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+div.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+ul.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.video {
+    width: 560px;
+    margin: 2em auto;
+}
